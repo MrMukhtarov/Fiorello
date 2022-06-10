@@ -1,0 +1,132 @@
+@media (max-width:576px){
+    .fixed{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+    #header-phone{
+        display: block;
+        padding: 1.5rem 2rem;
+    }
+    #first{
+        h1,img{
+            padding: 0 20px;
+        }
+        p{
+            display: none;
+        }
+    }
+    #second{
+        .left{
+            display: none;
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .cat{
+            display: block;
+        }
+    }
+    #three{
+        .left{
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            img{
+             width: 86%;
+            }
+            text-align: center;
+          
+        }
+        .right{
+            margin-top: 60px;
+            text-align: left;
+            padding: 0 40px;
+            h2{
+                font-size: 32px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 19px; 
+            }
+        }
+    }
+    #four{
+        .box{
+            margin-bottom: 60px;
+        }
+        .top{
+            padding: 0 40px;
+        }
+    }
+    #fifth{
+       background-attachment: local !important;
+       background-size: cover;
+       .all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input{
+            width: 70%;
+            margin-top: 10px;
+        }
+        button{
+            width: 50%;
+            margin-top: 20px;
+        }
+       }
+    }
+    #sixth{
+        .text{
+            padding: 0 30px;
+            h2{
+                margin-bottom: 20px;
+            }
+        }
+        padding-top: 5rem !important;
+        padding-bottom: 1rem !important;
+        .bottom-all{
+            display: flex;
+            flex-direction: column;
+        }
+        .box{
+            width: 80% !important;
+            margin-bottom: 20px;
+            p{
+                padding: 0 50px;
+            }
+        } 
+    }
+    #seventh{
+        padding: 0 50px;
+        .all{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    #eights{
+        padding: 0 30px;
+        .first{
+            margin-bottom: 30px;
+        }
+    }
+    footer{
+        .left{
+            text-align: center !important;
+        }
+        .center{
+            text-align: center !important;
+            margin: 20px 0;
+        }
+        .right{
+            text-align: center !important;
+        }
+    }
+} 
